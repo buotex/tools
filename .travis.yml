@@ -2,7 +2,7 @@ language: python
 python:
   - "2.7"
 install:
-  - sudo apt-get install -y atlas
+  - sudo apt-get install -y libatlas-base-dev
   - sudo apt-get install -y gfortran
   - pip install scipy scikit-learn
 script:
